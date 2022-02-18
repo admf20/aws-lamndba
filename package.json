@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "serverless deploy --verbose",
+    "dev": "serverless deploy function -f getTask"
+  },
+  "dependencies": {
+    "@middy/core": "^2.5.7",
+    "@middy/http-json-body-parser": "^2.5.7",
+    "aws-sdk": "^2.1075.0",
+    "uuid": "^8.3.2"
+  }
+}
